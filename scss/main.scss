@@ -58,6 +58,11 @@ body {
 				border: 0;
 				background: #ffffff;
 				cursor: pointer;
+				outline: none;
+
+				&:active {
+					transform:scale(.98);
+				}
 			}
 		}
 
@@ -76,6 +81,12 @@ body {
 				border-radius: 5px;
 				background: #ffffff;
 				cursor: pointer;
+				outline: none;
+
+				&:active {
+					outline: none;
+					transform:scale(.98);
+				}
 			}
 		}
 	}
